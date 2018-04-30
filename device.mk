@@ -30,11 +30,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Atmel_maXTouch_Touchscreen.kl:system/usr/keylayout/Atmel_maXTouch_Touchscreen.kl \
     $(LOCAL_PATH)/keylayout/msm8976-tashalite-snd-card_Button_Jack.kl:system/usr/keylayout/msm8976-tashalite-snd-card_Button_Jack.kl \
 
-# Libshims
-PRODUCT_PACKAGES += \
-    libshims_camera \
-    libshims_ims
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.kenzo.rc
