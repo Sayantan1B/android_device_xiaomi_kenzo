@@ -1,6 +1,20 @@
 [
   {
-    "repository": "android_device_xiaomi_msm8956-common",
-    "target_path": "device/xiaomi/msm8956-common"
+    "remote":      "github",  
+    "repository":  "Sayantan1B/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch":      "lineage-15.1"
+  },
+  {
+    "remote":      "github",  
+    "repository":  "Sayantan1B/android_device_xiaomi_msm8956-common",
+    "target_path": "device/xiaomi/msm8956-common",
+    "branch":      "mko-mr1"
+  },
+  {
+    "remote":      "github",  
+    "repository":  "Sayantan1B/android_vendor_xiaomi_kenzo",
+    "target_path": "vendor/xiaomi/kenzo",
+    "branch":      "mko-mr1"
   }
 ]
